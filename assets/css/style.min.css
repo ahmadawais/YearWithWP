@@ -1,0 +1,76 @@
+/*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+article,aside,footer,header,nav,section{display:block}
+h1{font-size:2em;margin:.67em 0}
+figcaption,figure,main{display:block}
+figure{margin:1em 40px}
+hr{box-sizing:content-box;height:0;overflow:visible}
+pre{font-family:monospace,monospace;font-size:1em}
+a{background-color:transparent;-webkit-text-decoration-skip:objects}
+abbr[title]{border-bottom:0;text-decoration:underline;text-decoration:underline dotted}
+b,strong{font-weight:inherit}
+b,strong{font-weight:bolder}
+code,kbd,samp{font-family:monospace,monospace;font-size:1em}
+dfn{font-style:italic}
+mark{background-color:#ff0;color:#000}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sub{bottom:-0.25em}
+sup{top:-0.5em}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+img{border-style:none}
+svg:not(:root){overflow:hidden}
+button,input,optgroup,select,textarea{margin:0}
+button,input{overflow:visible}
+button,select{text-transform:none}
+button,html [type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}
+button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}
+button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}
+legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}
+progress{display:inline-block;vertical-align:baseline}
+textarea{overflow:auto}
+[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}
+[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}
+[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}
+[type="search"]::-webkit-search-cancel-button,[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+details,menu{display:block}
+summary{display:list-item}
+canvas{display:inline-block}
+template{display:none}
+[hidden]{display:none}
+*,*:after,*:before{box-sizing:border-box;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;text-rendering:optimizeLegibility}
+html{font-size:62.5%;height:100%;min-height:100%}
+body{font:400 11px/1.4 sans-serif;color:#292929;margin:0;background:#fff;height:100%;min-height:100%;word-break:break-word;-webkit-word-break:break-word}
+.clear:before,.clear:after{content:' ';display:table}
+.clear:after{clear:both}
+.clear{*zoom:1}
+img{max-width:100%;vertical-align:bottom;height:auto}
+a{color:#444;text-decoration:none}
+a:hover{color:#444}
+a:focus{outline:0}
+a:hover,a:active{outline:0}
+input:focus{outline:0;border:1px solid #292929}
+select{width:100%}
+.dn{display:none !important}
+p,a{font:400 1.6rem/1.2 "Montserrat",sans-serif}
+h1,h2,h3,h4,h5,h6{font-family:"Montserrat",sans-serif;font-weight:700;margin-top:2rem;margin-bottom:0;line-height:1.2}
+h1{font-size:5.4rem;margin-top:4rem}
+h2{font-size:3.6rem;margin-top:4rem}
+h3{font-size:1.8rem}
+h4{font-size:1.6363636364rem}
+h5{font-size:1.3846153846rem}
+h6{font-size:1.2rem}
+.aa_display--none{display:none}
+.aa_display--table{display:table}
+.aa_wrap{display:table;width:100%;margin:0 auto;padding:2rem}
+.ywp_title h1{font-family:"Montserrat",sans-serif;font-weight:100;font-size:4vw;font-size:35.8824px;z-index:99;position:relative}
+.ywp_title h1 span{position:relative;z-index:2}
+.ywp_title h1 span svg{position:absolute;width:120%;height:120%;top:0;bottom:0;right:0;left:-3rem;z-index:-1}
+@media(min-width:320px){p,a{font:400 1.4rem/1.2 "Montserrat",sans-serif}
+}@media(min-width:480px){p,a{font:400 1.5rem/1.2 "Montserrat",sans-serif}
+}@media(min-width:768px){p,a{font:400 1.6rem/1.2 "Montserrat",sans-serif}
+}@media(min-width:1024px){p,a{font:400 1.6rem/1.2 "Montserrat",sans-serif}
+}@media(min-width:1140px){p,a{font:400 1.6rem/1.2 "Montserrat",sans-serif}
+}@media(min-width:1280px){p,a{font:400 1.6rem/1.2 "Montserrat",sans-serif}
+}

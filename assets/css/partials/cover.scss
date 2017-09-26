@@ -1,0 +1,91 @@
+/* ----------------------------------------------------------------------------
+ * Cover.
+ * ------------------------------------------------------------------------- */
+
+.ywp_title {
+	display: table;
+	width  : 100%;
+	padding: 2.5rem 5rem;
+	// max-width: 90rem;
+
+	.ywp_title_inner {
+		display: table;
+		width: 100%;
+		text-align: center;
+		margin: 3rem auto;
+		font-family: $aa_font--one;
+		font-weight: 100;
+		font-size: 4vw;
+		font-size: 35.8824px;
+		line-height: 1.8;
+		z-index: 99;
+		position: relative;
+
+		a {
+			font-size: inherit;
+			border-bottom: 1px solid #dedede;
+			transition: all 0.6s ease;
+
+			&:hover {
+				border-bottom: 1px solid $b;
+			}
+		}
+
+		span {
+			position: relative;
+			z-index: 2;
+
+			svg {
+				position: absolute;
+				z-index: -1;
+				width: 120%;
+				height: 120%;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				left: -3rem;
+			}
+
+			.svg_one,
+			.svg_six {
+				width: 135%;
+				height: 135%;
+				top: -0.5rem;
+				bottom: 0;
+				right: 0;
+				left: -3rem;
+			}
+			.svg_two {
+				width: 120%;
+				height: 120%;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				left: -3rem;
+			}
+			.svg_three {
+				width: 120%;
+				height: 120%;
+				top: 0.5rem;
+				bottom: 0;
+				right: 0;
+				left: -8rem;
+			}
+			.svg_four,
+			.svg_five {
+				width: 120%;
+				height: 120%;
+				top: 0;
+				bottom: 0;
+				right: 0;
+				left: 0;
+			}
+		}
+	}
+}
+
+.aa_spacer {
+	display: table;
+	width: 100%;
+	margin: 2rem auto;
+}

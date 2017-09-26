@@ -1,0 +1,207 @@
+/* ----------------------------------------------------------------------------
+* Variables
+* ------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------
+* Custom Website Fonts
+* ------------------------------------------------------------------------- */
+
+$aa_font--one: 'Operator Mono', 'Montserrat', sans-serif;
+$aa_font--two: 'Montserrat', sans-serif;
+
+
+/* ----------------------------------------------------------------------------
+* Custom Website Colors
+* ------------------------------------------------------------------------- */
+
+// Colors
+
+$c1: #dedede;
+$c2: #292929;
+
+$w : #ffffff;
+$w7 : #f7f7f7;
+$b : #000000;
+$gb: #686868;
+$g : #35ad68;
+$y : #FFFDD2;
+
+
+$aa_color_bodyBG1      : #ffffff;
+$aa_color_indexBG      : #eff3f6;
+
+$aa_color_primary      : #1665c1; // dark blue menu bg color
+$aa_color_primary_var1 : #03a9f5; // light blue
+$aa_color_menu         : #42a5f5; // color menu
+$aa_color_search       : #1976d2; // nav search
+$aa_color_secondary    : #ff6d00; // orange color
+
+$aa_color_post_text    : #607d8b; // grey color
+
+$aa_color_search_border: #dadada;
+$aa_color_tagsBG       : #cadce8;
+$aa_menu_link_gray 	   : #E2E2E2;
+
+$aa_color_footerBG     : #263238;
+$aa_color_footerText   : #536c78;
+
+$aa_color_workBG       : #eef3f7;
+$aa_color_iconBG       : #0e82d7;
+$aa_color_notfBG       : #ffab00;
+
+$aa_color_linkBG       : #273238;
+
+$aa_color_newsBG       : #273238;
+$aa_color_newsHD       : #ffffff;
+
+$aa_color_replyBG      : #f6f8fa;
+
+$aa_color_marker       : #e65d5d;
+$aa_color_favBG        : #b0bec5;
+
+$aa_color_ckMark       : #5cb968;
+
+$aa_color_ownerBG      : #f8fafb;
+
+$aa_color_listingBG    : #eff3f6;
+
+$aa_color_rentalHead   : #292929;
+
+$aa_color_heading      : #292929;
+
+$aa_color_heart        : #F50303;
+
+$aa_color_searchBtn    : #ffffff;
+
+
+/* ----------------------------------------------------------------------------
+* Social Icon Colors
+* ------------------------------------------------------------------------- */
+
+$aa_color_fb           : #3b5998; // facebook
+$aa_color_tw           : #55acee; // twitter
+$aa_color_ins          : #3f729b; // instagram
+$aa_color_gplus        : #dc4e41; // google plus
+$aa_color_yt           : #cd201f; // youtube
+$aa_color_behance      : #1769ff; // behance
+$aa_color_dribble      : #444444; // dribble
+$aa_color_linkedin     : #00a0dc; // linkedin
+$aa_color_skype        : #00aff0; // skype
+$aa_color_stumbleupon  : #eb4924; // stumbleupon
+$aa_color_vimeo        : #1ab7ea; // vimeo
+
+
+/* ----------------------------------------------------------------------------
+* Map related
+* ------------------------------------------------------------------------- */
+$aa_map_marker         : #FF6D00;
+
+
+/* ----------------------------------------------------------------------------
+ * Member login register etc msgs
+ * ------------------------------------------------------------------------- */
+$aa_notice_error : $aa_color_marker;
+$aa_notice_success   : $aa_color_ckMark;
+
+
+/* ----------------------------------------------------------------------------
+ * Dummy colors
+ * ------------------------------------------------------------------------- */
+ /* Primary Color */
+//$dummy : #406de4;
+//$dummy : #00BCD4;
+///$dummy: #03A9F
+//$dummy : #3498db;
+//$dummy : #2980b9;
+//$dummy : #3F51B5;
+//$dummy : #304FFE;
+//$dummy : #FF5722;
+//$dummy : #795548;
+//$dummy : #2ecc71;
+//$dummy : #27ae60;
+//$dummy : #35ad68;
+//$dummy : #1abc9c;
+//$dummy : #16a085;
+//$dummy : #9b59b6;
+//$dummy : #8e44ad;
+//$dummy : #4A148C;
+//$dummy : #673AB7;
+//$dummy : #FFA000;
+//$dummy : #FBC02D;
+//$dummy : #f1c40f;
+//$dummy : #f39c12;
+//$dummy : #e67e22;
+//$dummy : #d35400;
+//$dummy : #e74c3c;
+//$dummy : #c0392b;
+//$dummy : #f44336;
+//$dummy : #7f8c8d;
+//$dummy : #34495e;
+//$dummy : #607D8;
+
+
+/* ----------------------------------------------------------------------------
+* Four Theme Colors
+* ------------------------------------------------------------------------- */
+
+$aa_color_1: $aa_color_primary;
+$aa_color_2: $aa_color_secondary;
+$aa_color_3: $aa_color_notfBG;
+$aa_color_4: $aa_color_primary_var1;
+$aa_color_5: $aa_color_search;
+
+
+/* ----------------------------------------------------------------------------
+ * Custom Sets
+ * ------------------------------------------------------------------------- */
+
+// // Purple
+// $aa_color_1: #9b59b6;
+// $aa_color_2: #4A148C;
+// $aa_color_3: #673AB7;
+// $aa_color_4: #f44336;
+// $aa_color_5: #8e44ad;
+
+// // Circus III
+// $aa_color_1: #2E0927;
+// $aa_color_2: #D90000;
+// $aa_color_3: #FF2D00;
+// $aa_color_4: #FF8C00;
+// $aa_color_5: #04756F;
+
+// // Flat UI
+// $aa_color_1: #2C3E50;
+// $aa_color_2: #E74C3C;
+// $aa_color_3: #225378;
+// $aa_color_4: #3498DB;
+// $aa_color_5: #2980B9;
+
+// // Time Changing
+// $aa_color_1: #332532;
+// $aa_color_2: #644D52;
+// $aa_color_3: #F77A52;
+// $aa_color_4: #FF974F;
+// $aa_color_5: #A49A87;
+
+// // Budha In Rain
+// $aa_color_1: #FF8000;
+// $aa_color_2: #FFD933;
+// $aa_color_3: #CCCC52;
+// $aa_color_4: #8FB359;
+// $aa_color_5: #8FB359;
+
+// // Cinnamon Mint
+// $aa_color_1: #14A697;
+// $aa_color_2: #F2C12E;
+// $aa_color_3: #F29D35;
+// $aa_color_4: #F27649;
+// $aa_color_5: #F25252;
+
+/* ----------------------------------------------------------------------------
+ * CF7
+ * ------------------------------------------------------------------------- */
+$cf7-yellow-bg: #ffde0e;
+$cf7-yellow-txt: #757575;
+$cf7-red-bg: #f34949;
+$cf7-red-txt: #fdd1d1;
+$cf7-green-bg: #35ad68;
+$cf7-green-txt: #cbffe7;
